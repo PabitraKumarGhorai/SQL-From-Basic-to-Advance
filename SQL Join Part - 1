@@ -55,7 +55,7 @@ values
 
 create table Dept
 (
-	dept_id varchar(30) not null primary key,
+    dept_id varchar(30) not null primary key,
     dept_name varchar(50)
 );
 
@@ -69,7 +69,7 @@ values
 
 create table Manager
 (
-	manager_id varchar(30) not null primary key,
+    manager_id varchar(30) not null primary key,
     manager_name varchar(50),
     dept_id varchar(30)
 );
