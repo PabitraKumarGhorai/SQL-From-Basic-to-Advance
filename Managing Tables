@@ -25,3 +25,6 @@
 
 8. TRUNCATE TABLE t;
 => Remove all data from the table.
+
+9. DELETE FROM Customers WHERE CustomerName='Alfreds Futterkiste';
+=> Delete is used to remove a particular record from the table.
