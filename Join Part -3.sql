@@ -45,6 +45,15 @@ from Family as child
 join Family as parent on child.parent_id = parent.member_id;
 
 
+-- Employee salary greater than their manager salary
+
+select 
+emp.name as Employee
+from Employee as emp
+join Employee as mgr 
+on mgr.id = emp.managerId where emp.salary > mgr.salary
+
+
 
 
 
